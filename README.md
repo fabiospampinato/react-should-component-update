@@ -43,6 +43,10 @@ shouldComponentUpdate ( myFn )( MyComponent );
 shouldComponentUpdate ( 'myprop.bar', ['myprop.foo', 'foo'], myFn )( MyComponent );
 ```
 
+## Related
+
+- **[react-log-updates](https://github.com/fabiospampinato/react-log-updates)**: Log the number of updates occurring, broken down by components.
+
 ## License
 
 MIT © Fabio Spampinato
