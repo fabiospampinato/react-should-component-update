@@ -37,6 +37,11 @@ function myFn ( props, nextProps ) {
 
 shouldComponentUpdate ( myFn )( MyComponent );
 
+// Boolean shortcut
+// `shouldComponentUpdate ( bool )( Component )`
+
+shouldComponentUpdate ( false )( MyComponent );
+
 // Multiple rules
 // Updates the component if at least one updating rule passes
 

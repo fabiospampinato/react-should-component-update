@@ -55,6 +55,10 @@ function shouldComponentUpdate ( ...rules ) {
 
           return !!rule ( this.props, nextProps );
 
+        } else if ( _.isBoolean ( rule ) ) { // Constant result
+
+          return rule;
+
         }
 
         return false;
