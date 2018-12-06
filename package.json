@@ -1,7 +1,7 @@
 {
   "name": "react-should-component-update",
   "description": "Higher-Order Component for adding \"shouldComponentUpdate\" to components. It supports easy to set shortcuts.",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
